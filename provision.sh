@@ -8,6 +8,7 @@ cat > /etc/apt/sources.list.d/kismet.list <<EOF
 deb https://www.kismetwireless.net/code/ precise kismet
 EOF
 
+apt-get install ruby1.9.1
 apt-get install kismet
 kismet # and run through the prompts so that wlan0mon gets created
 apt-get install wireshark
